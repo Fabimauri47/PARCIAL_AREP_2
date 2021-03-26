@@ -17,7 +17,7 @@ docker run -d -p 42000:6000 --name parcialarep fabimauri47/parcialarep
 http://ec2-45-35-764-12.us-east-2.compute.amazonaws.com:42000/asin?value=0.5
 http://ec2-45-35-764-12.us-east-2.compute.amazonaws.com:42000/atan?value=1
 
- -[Presione Aqui para revisar el video EC2 con DOCKER](https://web.microsoftstream.com/video/b4ecb220-bc78-4bd1-a83d-878d2a44acbe?list=studio)
+ -[Presione Aqui para revisar el video EC2 con DOCKER](https://web.microsoftstream.com/video/0b412606-fae2-49fb-bc4a-aea4e0280ad5?list=studio)
 
 ## Instalacion AWS en Lambda
 1.  Dirijase a AWS Lambda
