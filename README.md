@@ -18,3 +18,15 @@ http://ec2-45-35-764-12.us-east-2.compute.amazonaws.com:42000/asin?value=0.5
 http://ec2-45-35-764-12.us-east-2.compute.amazonaws.com:42000/atan?value=1
 
 ## Instalacion AWS en Lambda
+1.  Dirijase a AWS Lambda
+2.  Oprima el botón de crear una función. Cree la función desde el inicio (From scratch)
+3.  Asígnele un nombre, en este caso "asin"
+4.  Seleccione el “Runtime” a Java 8
+5.  Dejar que AWS cree un rol por defecto
+6.  En la sección “Function code” cargue el código
+7.  En el campo “Handler” escriba: servicesCalculator::calculateAsin
+8.  Oprima el botón de guardar
+9.  En la parte superior en el cuadro de selección que dice ”Select a test event” seleccione “Configure test events”.
+10. En el cuadro de texto, borre el JSON que aparece y escriba un numero entre -1 y 1
+11. Oprima el botón de crear
+12. Una vez creado ya puede oprimir el boton de “Test” y obtendrá el resultado de haber ejecutado la función
