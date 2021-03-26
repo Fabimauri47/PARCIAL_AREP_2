@@ -17,6 +17,8 @@ docker run -d -p 42000:6000 --name parcialarep fabimauri47/parcialarep
 http://ec2-45-35-764-12.us-east-2.compute.amazonaws.com:42000/asin?value=0.5
 http://ec2-45-35-764-12.us-east-2.compute.amazonaws.com:42000/atan?value=1
 
+ -[Presione Aqui para revisar el video EC2 con DOCKER](https://web.microsoftstream.com/video/b4ecb220-bc78-4bd1-a83d-878d2a44acbe?list=studio)
+
 ## Instalacion AWS en Lambda
 1.  Dirijase a AWS Lambda
 2.  Oprima el botón de crear una función. Cree la función desde el inicio (From scratch)
@@ -30,3 +32,7 @@ http://ec2-45-35-764-12.us-east-2.compute.amazonaws.com:42000/atan?value=1
 10. En el cuadro de texto, borre el JSON que aparece y escriba un numero entre -1 y 1
 11. Oprima el botón de crear
 12. Una vez creado ya puede oprimir el boton de “Test” y obtendrá el resultado de haber ejecutado la función
+
+ -[Presione Aqui para revisar el video LAMBDA](https://web.microsoftstream.com/video/b4ecb220-bc78-4bd1-a83d-878d2a44acbe?list=studio)
+ 
+ -[Presione Aqui para revisar el video API GATEWAY](https://web.microsoftstream.com/video/a7eede1f-1762-4449-a370-8e79103710d3?list=studio)
